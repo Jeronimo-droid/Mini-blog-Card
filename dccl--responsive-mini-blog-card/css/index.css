@@ -1,0 +1,92 @@
+:root{
+
+        /* Fonts */
+    --UniversalFont: 'Sora', sans-serif;
+    --Title: 18px;
+    --Body: 14px;
+    --SmallText: 12px;
+    --Tag: 10px;
+
+        /* Colors */
+    --Purple: #883AE1;
+    --White: #FFFFFF;
+    --LightPink: #E6D6FC;
+    --LightGrey: #E5EAF0;
+    --DarkBlue: #20293A;
+    --Grey: #6C727F;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--UniversalFont);
+    background-color: #FAFAF9;
+}
+
+
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    margin: 164px;
+    background-color:var(--White);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 15px;
+    align-items: center;
+    max-width: 368px;
+}
+
+.Card_image{
+    height: 152px;
+    width: 336px;
+    max-width: 350px;
+    min-width: 100px;
+    padding: 16px 16px 0 16px;
+    border-radius: 30px;
+}
+
+.Card_title{
+    font-size: var(--Title);
+    margin-bottom: 6px;
+    margin-top: 0;
+    padding: 0 16px 0 16px;
+}
+
+.Card_paragraph{
+    font-size: var(--SmallText);
+    margin-top: 6px;
+    line-height: 22px;
+    color: var(--Grey);
+    margin-bottom: 0;
+    padding: 0 16px 0 16px;
+}
+
+.Line{
+    margin-top: 20px;
+    border-top: 0.5px solid var(--LightGrey);
+}
+
+.Card_name{
+    font-size: var(--SmallText);
+    padding-top: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: var(--Grey);
+    padding: 16px;
+}
+
+.Card_design{
+    font-size: var(--Tag);
+    background-color: var(--LightPink);
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 4px 15px;
+    border-radius: 10px;
+    margin: 16px auto 16px 16px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
